@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5E9CFCBB1EF10C6800DE2A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9CFCBA1EF10C6800DE2A2E /* AppDelegate.swift */; };
-		5E9CFCBD1EF10C6800DE2A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9CFCBC1EF10C6800DE2A2E /* ViewController.swift */; };
 		5E9CFCC01EF10C6800DE2A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9CFCBE1EF10C6800DE2A2E /* Main.storyboard */; };
 		5E9CFCC31EF10C6800DE2A2E /* SearchControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E9CFCC11EF10C6800DE2A2E /* SearchControl.xcdatamodeld */; };
 		5E9CFCC51EF10C6800DE2A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9CFCC41EF10C6800DE2A2E /* Assets.xcassets */; };
 		5E9CFCC81EF10C6800DE2A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9CFCC61EF10C6800DE2A2E /* LaunchScreen.storyboard */; };
 		5E9CFCD31EF10C6800DE2A2E /* SearchControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9CFCD21EF10C6800DE2A2E /* SearchControlTests.swift */; };
 		5E9CFCDE1EF10C6800DE2A2E /* SearchControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9CFCDD1EF10C6800DE2A2E /* SearchControlUITests.swift */; };
+		5E9CFCEC1EF10E3600DE2A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9CFCEB1EF10E3600DE2A2E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		5E9CFCB71EF10C6800DE2A2E /* SearchControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9CFCBA1EF10C6800DE2A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E9CFCBC1EF10C6800DE2A2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E9CFCBF1EF10C6800DE2A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E9CFCC21EF10C6800DE2A2E /* SearchControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SearchControl.xcdatamodel; sourceTree = "<group>"; };
 		5E9CFCC41EF10C6800DE2A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		5E9CFCD91EF10C6800DE2A2E /* SearchControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9CFCDD1EF10C6800DE2A2E /* SearchControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchControlUITests.swift; sourceTree = "<group>"; };
 		5E9CFCDF1EF10C6800DE2A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9CFCEB1EF10E3600DE2A2E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 		5E9CFCB91EF10C6800DE2A2E /* SearchControl */ = {
 			isa = PBXGroup;
 			children = (
+				5E9CFCEB1EF10E3600DE2A2E /* ViewController.swift */,
 				5E9CFCBA1EF10C6800DE2A2E /* AppDelegate.swift */,
-				5E9CFCBC1EF10C6800DE2A2E /* ViewController.swift */,
 				5E9CFCBE1EF10C6800DE2A2E /* Main.storyboard */,
 				5E9CFCC41EF10C6800DE2A2E /* Assets.xcassets */,
 				5E9CFCC61EF10C6800DE2A2E /* LaunchScreen.storyboard */,
@@ -265,8 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9CFCEC1EF10E3600DE2A2E /* ViewController.swift in Sources */,
 				5E9CFCC31EF10C6800DE2A2E /* SearchControl.xcdatamodeld in Sources */,
-				5E9CFCBD1EF10C6800DE2A2E /* ViewController.swift in Sources */,
 				5E9CFCBB1EF10C6800DE2A2E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
